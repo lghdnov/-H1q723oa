@@ -17,7 +17,7 @@ public:
     string toString() const{
         ostringstream s_stream;
         s_stream
-            << "nominal: " << nominal << " "
+            << "nominal:  " << nominal << " "
             << "count: " << count;
 
         return s_stream.str();
